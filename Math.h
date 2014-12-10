@@ -59,6 +59,12 @@ GLfloat * TDMatrix2Pointer(TDMatrix2 * matrix);
 GLfloat * TDMatrix3Pointer(TDMatrix3 * matrix);
 GLfloat * TDMatrix4Pointer(TDMatrix4 * matrix);
 
+extern GLuint TDVertexAttribPosition;
+extern GLuint TDVertexAttribColor;
+extern GLuint TDVertexAttribNormal;
+extern GLuint TDVertexAttribTexCoord0;
+extern GLuint TDVertexAttribTexCoord1;
+
 extern inline TDMatrix4 TDMatrix4Make(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33);
 extern inline TDMatrix4 TDMatrix4MakeAndTranspose(float m00, float m01, float m02, float m03, float m10, float m11, float m12, float m13, float m20, float m21, float m22, float m23, float m30, float m31, float m32, float m33);
 extern inline TDMatrix4 TDMatrix4MakeWithArray(float values[16]);

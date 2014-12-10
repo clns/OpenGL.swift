@@ -92,6 +92,12 @@ const TDMatrix4 TDMatrix4Identity = {1, 0, 0, 0,
 const GLboolean TDFalse = GL_FALSE;
 const GLboolean TDTrue = GL_TRUE;
 
+GLuint TDVertexAttribPosition = GLKVertexAttribPosition;
+GLuint TDVertexAttribColor = GLKVertexAttribColor;
+GLuint TDVertexAttribNormal = GLKVertexAttribNormal;
+GLuint TDVertexAttribTexCoord0 = GLKVertexAttribTexCoord0;
+GLuint TDVertexAttribTexCoord1 = GLKVertexAttribTexCoord1;
+
 #pragma mark - Pointer access
 
 GLfloat * TDMatrix2Pointer(TDMatrix2 * matrix) {
